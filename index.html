@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+
+
+<!--24.5.15; 자바스크립트 입히기-->
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>원소 주기율표</title>
+    </head>
+    <body>
+        <h1 style= "font-size: 250%;text-align: center;">Periodic Table of Elements</h1>
+        <table style="font-size: 200%;">
+            
+            
+            <tr>
+                <th>&nbsp;&nbsp;&nbsp;&nbsp;주기/족&nbsp;&nbsp;</th>
+                <th>1&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>2&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>3&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>4&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>5&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>6&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>7&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>8&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>9&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>10&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>11&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>12&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>13&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>14&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>15&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>16&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>17&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>18&nbsp;&nbsp;&nbsp;&nbsp;</th> 
+            </tr>
+            <br>
+            <br>
+            <br>
+            <tr>
+                
+                <th>1</th>
+                <th onclick="alert('수소. 원자번호 1번, 1족, 1주기, 비금속')" class="element"  data-electro="2.20" data-name_e="Hydrogen" data-name="수소" data-radius="0.053nm" data-atomic-number="1" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">H</th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th onclick="alert('헬륨. 원자번호 2번, 18족, 1주기, 비금속')" class="element"  data-electro="-" data-name_e="Helium" data-name="헬륨" data-radius="0.031nm" data-atomic-number="2" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">He</th>
+                
+            </tr>
+            <tr>
+                <th>2</th>
+                <th onclick="alert('리튬. 원자번호 3번, 1족, 2주기, 금속')" class="element"  data-electro="0.98" data-name_e="Lithium" data-name="리튬" data-radius="0.152nm" data-atomic-number="3" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Li</th>
+                <th onclick="alert('베릴륨. 원자번호 4번, 2족, 2주기, 금속')" class="element"  data-electro="1.57" data-name_e="Beryllium" data-name="베릴륨" data-radius="0.112nm"data-atomic-number="4" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Be</th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th onclick="alert('붕소. 원자번호 5번, 13족, 2주기, 준금속')" class="element"  data-electro="2.04" data-name_e="Boron" data-name="붕소" data-radius="0.085nm"data-atomic-number="5" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">B</th>
+                <th onclick="alert('탄소. 원자번호 6번, 14족, 2주기, 비금속')" class="element"  data-electro="2.55" data-name_e="Carbon" data-name="탄소" data-radius="0.070nm"data-atomic-number="6" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">C</th>
+                <th onclick="alert('질소. 원자번호 7번, 15족, 2주기, 비금속')" class="element"  data-electro="3.04" data-name_e="Nitrogen" data-name="질소" data-radius="0.065nm"data-atomic-number="7" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">N</th>
+                <th onclick="alert('산소. 원자번호 8번, 16족, 2주기, 비금속')" class="element"  data-electro="3.44" data-name_e="Oxygen" data-name="산소" data-radius="0.060nm"data-atomic-number="8" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">O</th>
+                <th onclick="alert('불소. 원자번호 9번, 17족, 2주기, 비금속')" class="element" data-electro="3.98" data-name_e="Fluorine" data-name="플루오린" data-radius="0.042nm"data-atomic-number="9" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">F</th>
+                <th onclick="alert('네온. 원자번호 10번, 18족, 2주기, 비금속')" class="element" data-electro="-" data-name_e="Neon" data-name="네온" data-radius="0.038nm"data-atomic-number="10" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ne</th>
+            </tr>
+            
+            <tr>
+                <th>3</th>
+                <th onclick="alert('소듐. 원자번호 11번, 1족, 3주기, 금속')" data-electro="0.93" data-name="소듐" data-name_e="sodium" data-radius="0.185nm"data-atomic-number="11" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Na</th>
+                <th onclick="alert('마그네슘. 원자번호 12번, 2족, 3주기, 금속')" data-electro="1.31" data-name="마그네슘" data-name_e="Magnesium" data-radius="0.147nm"data-atomic-number="12" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Mg</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th onclick="alert('알루미늄. 원자번호 13번, 13족, 3주기, 금속')" data-electro="1.61" data-name_e="Aluminium" data-name="알루미늄" data-radius="0.143nm"data-atomic-number="13" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Al</th>
+                <th onclick="alert('규소. 원자번호 14번, 14족, 3주기, 준금속')"  data-electro="1.90" data-name_e="Silicon" data-name="규소" data-radius="0.111nm"data-atomic-number="14" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Si</th>
+                <th onclick="alert('인. 원자번호 15번, 15족, 3주기, 비금속')" data-electro="2.19" data-name_e=" Phosphorus" data-name="인" data-radius="0.101nm"data-atomic-number="15" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">P</th>
+                <th onclick="alert('황. 원자번호 16번, 16족, 3주기, 비금속')" data-electro="2.58" data-name_e="Sulfur" data-name="황" data-radius="0.099nm"data-atomic-number="16" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">S</th>
+                <th onclick="alert('염소. 원자번호 17번, 17족, 3주기, 비금속')" data-electro="3.16" data-name_e="Chlorine" data-name="염소" data-radius="0.090nm"data-atomic-number="17" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Cl</th>
+                <th onclick="alert('아르곤. 원자번호 18번, 18족, 3주기, 비금속')" data-electro="-" data-name_e="Argon" data-name="아르곤" data-radius="0.071nm"data-atomic-number="18" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ar</th>
+                
+                
+
+            
+            </tr>
+            <tr>
+                <th>4</th>
+                <th onclick="alert('포타슘. 원자번호 19번, 1족, 4주기, 금속')" data-electro="0.82" data-name_e="Potassium" data-name="포타슘" data-radius="0.231nm"data-atomic-number="19" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">K</th>
+                <th onclick="alert('칼슘. 원자번호 20번, 2족, 4주기, 금속')" data-electro="1.00" data-name_e="Calcium" data-name="칼슘" data-radius="0.187nm"data-atomic-number="20" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ca</th>
+                <th onclick="alert('스칸듐. 원자번호 21번, 3족, 4주기, 금속')" data-electro="1.36" data-name_e="Scandium" data-name="스칸듐" data-radius="0.172nm"data-atomic-number="21" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Sc</th>
+                <th onclick="alert('티타늄. 원자번호 22번, 4족, 4주기, 금속')" data-electro="1.54" data-name_e="Titanium" data-name="티타늄" data-radius="0.147nm"data-atomic-number="22" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ti</th>
+                <th onclick="alert('바나듐. 원자번호 23번, 5족, 4주기, 금속')" data-electro="1.63" data-name_e="Vanadium" data-name="바나듐" data-radius="0.134nm"data-atomic-number="23" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">V</th>
+                <th onclick="alert('크로뮴. 원자번호 24번, 6족, 4주기, 금속')" data-electro="1.66" data-name_e="Chromium" data-name="크로뮴" data-radius="0.128nm"data-atomic-number="24" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Cr</th>
+                <th onclick="alert('망가니즈. 원자번호 25번, 7족, 4주기, 금속')" data-electro="1.55" data-name_e="Manganese" data-name="망가니즈" data-radius="0.112nm"data-atomic-number="25" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Mn</th>
+                <th onclick="alert('철. 원자번호 26번, 8족, 4주기, 금속')" data-electro="1.83" data-name_e="Ferrum" data-name="철" data-radius="0.124nm"data-atomic-number="26" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Fe</th>
+                <th onclick="alert('코발트. 원자번호 27번, 9족, 4주기, 금속')" data-electro="1.88" data-name_e="Cobalt" data-name="코발트" data-radius="0.125nm"data-atomic-number="27" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Co</th>
+                <th onclick="alert('니켈. 원자번호 28번, 10족, 4주기, 금속')" data-electro="1.91" data-name_e="Nickel" data-name="니켈" data-radius="0.125nm"data-atomic-number="28" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ni</th>
+                <th onclick="alert('구리. 원자번호 29번, 11족, 4주기, 금속')" data-electro="1.90" data-name_e="Copper" data-name="구리" data-radius="0.128nm"data-atomic-number="29" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Cu</th>
+                <th onclick="alert('아연. 원자번호 30번, 12족, 4주기, 금속')" data-electro="1.91" data-name_e="Zinc" data-name="아연" data-radius="0.133nm"data-atomic-number="30" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Zn</th>
+                <th onclick="alert('갈륨. 원자번호 31번, 13족, 4주기, 금속')" data-electro="1.81" data-name_e="Gallium" data-name="갈륨" data-radius="0.135nm"data-atomic-number="31" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ga</th>
+                <th onclick="alert('저마늄. 원자번호 32번, 14족, 4주기, 준금속')" data-electro="2.01" data-name_e="Germanium" data-name="저마늄" data-radius="0.122nm"data-atomic-number="32" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ge</th>
+                <th onclick="alert('비소. 원자번호 33번, 15족, 4주기, 준금속')" data-electro="2.18" data-name_e="Arsenic" data-name="비소" data-radius="0.125nm"data-atomic-number="33" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">As</th>
+                <th onclick="alert('셀레늄. 원자번호 34번, 16족, 4주기, 비금속')" data-electro="2.55" data-name_e="Selenium" data-name="셀레늄" data-radius="0.116nm"data-atomic-number="34" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Se</th>
+                <th onclick="alert('브로민. 원자번호 35번, 17족, 4주기, 비금속')" data-electro="2.96" data-name_e="Bromine" data-name="브로민" data-radius="0.119nm"data-atomic-number="35" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Br</th>
+                <th onclick="alert('크립톤. 원자번호 36번, 18족, 4주기, 비금속')" data-electro="3.00" data-name_e="Krypton" data-name="크립톤" data-radius="0.197nm"data-atomic-number="36" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Kr</th>
+            </tr>
+            <tr>
+                <th>5&nbsp;</th>
+                <th onclick="alert('루비듐. 원자번호 37번, 1족, 5주기, 금속')" data-electro="0.82" data-name_e="Rubidium" data-name="루비듐" data-radius="0.251nm"data-atomic-number="37" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Rb&nbsp;</th>
+                <th onclick="alert('스트론튬. 원자번호 38번, 2족, 5주기, 금속')" data-electro="0.95" data-name_e="Strontium" data-name="스트론튬" data-radius="0.215nm"data-atomic-number="38" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Sr&nbsp;</th>
+                <th onclick="alert('이트륨. 원자번호 39번, 3족, 5주기, 금속')" data-electro="1.22" data-name_e="Yttrium" data-name="이트륨" data-radius="0.181nm"data-atomic-number="39" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Y&nbsp;</th>
+                <th onclick="alert('지르코늄. 원자번호 40번, 4족, 5주기, 금속')" data-electro="1.33" data-name_e="Zirconium" data-name="지르코늄" data-radius="0.158nm"data-atomic-number="40" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Zr&nbsp;</th>
+                <th onclick="alert('나이오븀. 원자번호 41번, 5족, 5주기, 금속')" data-electro="1.6" data-name_e="Niobium" data-name="나이오븀" data-radius="0.143nm"data-atomic-number="41" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Nb&nbsp;</th>
+                <th onclick="alert('몰리브데넘. 원자번호 42번, 6족, 5주기, 금속')" data-electro="2.16" data-name_e="Molybdenum" data-name="몰리브데넘" data-radius="0.136nm"data-atomic-number="42" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Mo&nbsp;</th>
+                <th onclick="alert('테크네튬. 원자번호 43번, 7족, 5주기, 금속\n방사성 원소')" data-electro="1.9" data-name_e="Technetium" data-name="테크네튬" data-radius="0.135nm"data-atomic-number="43" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Tc&nbsp;</th>
+                <th onclick="alert('루테늄. 원자번호 44번, 8족, 5주기, 금속')" data-electro="2.2" data-name_e="Ruthenium" data-name="루테늄" data-radius="0.134nm"data-atomic-number="44" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ru&nbsp;</th>
+                <th onclick="alert('로듐. 원자번호 45번, 9족, 5주기, 금속')" data-electro="2.28" data-name_e="Rhodium" data-name="로듐" data-radius="0.134nm"data-atomic-number="45" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Rh&nbsp;</th>
+                <th onclick="alert('팔라듐. 원자번호 46번, 10족, 5주기, 금속')" data-electro="2.20" data-name_e="Palladium" data-name="팔라듐" data-radius="0.137nm"data-atomic-number="46" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Pd&nbsp;</th>
+                <th onclick="alert('은. 원자번호 47번, 11족, 5주기, 금속')" data-electro="1.93" data-name_e="Argentum" data-name="은" data-radius="0.144nm"data-atomic-number="47" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ag&nbsp;</th>
+                <th onclick="alert('카드뮴. 원자번호 48번, 12족, 5주기, 금속')" data-electro="1.69" data-name_e="Cadmium" data-name="카드뮴" data-radius="0.150nm"data-atomic-number="48" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Cd&nbsp;</th>
+                <th onclick="alert('인듐. 원자번호 49번, 13족, 5주기, 금속')" data-electro="1.78" data-name_e="Indium" data-name="인듐" data-radius="0.157nm"data-atomic-number="49" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">In&nbsp;</th>
+                <th onclick="alert('주석. 원자번호 50번, 14족, 5주기, 금속')" data-electro="1.96" data-name_e="Tin" data-name="주석" data-radius="0.158nm"data-atomic-number="50" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Sn&nbsp;</th>
+                <th onclick="alert('안티모니. 원자번호 51번, 15족, 5주기, 준금속')" data-electro="2.05" data-name_e="Antimony" data-name="안티모니" data-radius="0.161nm"data-atomic-number="51" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Sb&nbsp;</th>
+                <th onclick="alert('텔루륨. 원자번호 52번, 16족, 5주기, 준금속')" data-electro="2.1" data-name_e="Tellurium" data-name="텔루륨" data-radius="0.143nm"data-atomic-number="52" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Te&nbsp;</th>
+                <th onclick="alert('아이오딘. 원자번호 53번, 17족, 5주기, 비금속')" data-electro="2.66" data-name_e="Iodine" data-name="아이오딘" data-radius="0.136nm"data-atomic-number="53" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">I&nbsp;</th>
+                <th onclick="alert('제논. 원자번호 54번, 18족, 5주기, 비금속')" data-electro="2.6" data-name_e="Xenon" data-name="제논" data-radius="0.218nm"data-atomic-number="54" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Xe&nbsp;</th>
+            </tr>
+            <tr>
+                <th>6&nbsp;</th>
+                <th onclick="alert('세슘. 원자번호 55번, 1족, 6주기, 금속')" data-electro="0.79" data-name_e="Cesium" data-name="세슘" data-radius="0.265nm"data-atomic-number="55" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Cs&nbsp;</th>
+                <th onclick="alert('바륨. 원자번호 56번, 2족, 6주기, 금속')" data-electro="0.89" data-name_e="Barium" data-name="바륨" data-radius="0.217nm"data-atomic-number="56" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ba&nbsp;</th>
+                <th style="font-size: 60%;">란타넘족&nbsp;</th>
+                <th onclick="alert('하프늄. 원자번호 72번, 4족, 6주기, 금속')" data-electro="1.3" data-name_e="Hafnium" data-name="하프늄" data-radius="0.159nm"data-atomic-number="72" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Hf&nbsp;</th>
+                <th onclick="alert('탄탈럼. 원자번호 73번, 5족, 6주기, 금속')" data-electro="1.5" data-name_e="Tantalum" data-name="탄탈럼" data-radius="0.147nm"data-atomic-number="73" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ta&nbsp;</th>
+                <th onclick="alert('텅스텐. 원자번호 74번, 6족, 6주기, 금속')" data-electro="2.36" data-name_e="Tungsten" data-name="텅스텐" data-radius="0.137nm"data-atomic-number="74" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">W&nbsp;</th>
+                <th onclick="alert('레늄. 원자번호 75번, 7족, 6주기, 금속')" data-electro="1.9" data-name_e="Rhenium" data-name="레늄" data-radius="0.138nm"data-atomic-number="75" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Re&nbsp;</th>
+                <th onclick="alert('오스뮴. 원자번호 76번, 8족, 6주기, 금속')" data-electro="2.2" data-name_e="Osmium" data-name="오스뮴" data-radius="0.135nm"data-atomic-number="76" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Os&nbsp;</th>
+                <th onclick="alert('이리듐. 원자번호 77번, 9족, 6주기, 금속')" data-electro="2.20" data-name_e="Iridium" data-name="이리듐" data-radius="0.135nm"data-atomic-number="77" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ir&nbsp;</th>
+                <th onclick="alert('백금. 원자번호 78번, 10족, 6주기, 금속')" data-electro="2.28" data-name_e="Platinum" data-name="백금" data-radius="0.138nm"data-atomic-number="78" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Pt&nbsp;</th>
+                <th onclick="alert('금. 원자번호 79번, 11족, 6주기, 금속')" data-electro="2.54" data-name_e="Aurum" data-name="금" data-radius="0.144nm"data-atomic-number="79" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Au&nbsp;</th>
+                <th onclick="alert('수은. 원자번호 80번, 12족, 6주기, 금속')" data-electro="2.00" data-name_e="Hydrargyrum" data-name="수은" data-radius="0.150nm"data-atomic-number="80" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Hg&nbsp;</th>
+                <th onclick="alert('탈륨. 원자번호 81번, 13족, 6주기, 금속')" data-electro="1.62" data-name_e="Thallium" data-name="탈륨" data-radius="0.171nm"data-atomic-number="81" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Tl&nbsp;</th>
+                <th onclick="alert('납. 원자번호 82번, 14족, 6주기, 금속')" data-electro="2.33" data-name_e="Plumbum" data-name="납" data-radius="0.175nm"data-atomic-number="82" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Pb&nbsp;</th>
+                <th onclick="alert('비스무트. 원자번호 83번, 15족, 6주기, 금속\n방사성 원소')" data-electro="2.02" data-name_e="Bismuth" data-name="비스무트" data-radius="0.182nm"data-atomic-number="83" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Bi&nbsp;</th>
+                <th onclick="alert('폴로늄. 원자번호 84번, 16족, 6주기, 준금속\n방사성 원소')" data-electro="2.0" data-name_e="Polonium" data-name="폴로늄" data-radius="0.140nm"data-atomic-number="84" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Po&nbsp;</th>
+                <th onclick="alert('아스타틴. 원자번호 85번, 17족, 6주기, 준금속\n방사성 원소')" data-electro="2.2" data-name_e="Astatine" data-name="아스타틴" data-radius="0.145nm"data-atomic-number="85" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">At&nbsp;</th>
+                <th onclick="alert('라돈. 원자번호 86번, 18족, 6주기, 비금속\n방사성 원소')" data-electro="-" data-name_e="Radon" data-name="라돈" data-radius="0.120nm"data-atomic-number="86" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Rn&nbsp;</th>
+            </tr>
+            <tr>
+                <th>7&nbsp;</th>
+                <th onclick="alert('프랑슘. 원자번호 87번, 1족, 7주기, 금속\n방사성 원소')" data-electro="0.7" data-name_e="Francium" data-name="프랑슘" data-radius="0.260nm"data-atomic-number="87" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Fr&nbsp;</th>
+                <th onclick="alert('라듐. 원자번호 88번, 2족, 7주기, 금속\n방사성 원소')" data-electro="0.9" data-name_e="Radium" data-name="라듐" data-radius="-"data-atomic-number="88" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ra&nbsp;</th>
+                <th style="font-size: 60%;">악티늄족&nbsp;</th>
+                <th onclick="alert('러더포듐. 원자번호 104번, 4족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Rutherfordium" data-name="러더포듐" data-radius="-"data-atomic-number="104" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Rf&nbsp;</th>
+                <th onclick="alert('더브늄. 원자번호 105번, 5족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Dubnium" data-name="더브늄" data-radius="-"data-atomic-number="105" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Db&nbsp;</th>
+                <th onclick="alert('시보귬. 원자번호 106번, 6족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Seaborgium" data-name="시보귬" data-radius="-"data-atomic-number="106" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Sg&nbsp;</th>
+                <th onclick="alert('보륨. 원자번호 107번, 7족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Bohrium" data-name="보륨" data-radius="-"data-atomic-number="107" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Bh&nbsp;</th>
+                <th onclick="alert('하슘. 원자번호 108번, 8족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Hassium" data-name="하슘" data-radius="-"data-atomic-number="108" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Hs&nbsp;</th>
+                <th onclick="alert('마이트너륨. 원자번호 109번, 9족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Meitnerium" data-name="마이트너륨" data-radius="-"data-atomic-number="109" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Mt&nbsp;</th>
+                <th onclick="alert('다름슈타튬. 원자번호 110번, 10족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Darmstadtium" data-name="다름슈타튬" data-radius="-"data-atomic-number="110" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ds&nbsp;</th>
+                <th onclick="alert('뢴트게늄. 원자번호 111번, 11족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Roentgenium" data-name="뢴트게늄" data-radius="-"data-atomic-number="111" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Rg&nbsp;</th>
+                <th onclick="alert('코페르니슘. 원자번호 112번, 12족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Copernicium" data-name="코페르니슘" data-radius="-"data-atomic-number="112" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Cn&nbsp;</th>
+                <th onclick="alert('니호늄. 원자번호 113번, 13족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Nihonium" data-name="니호늄" data-radius=""data-atomic-number="113" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Nh&nbsp;</th>
+                <th onclick="alert('플레로븀. 원자번호 114번, 14족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Flerovium" data-name="플레로븀" data-radius="-"data-atomic-number="114" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Fl&nbsp;</th>
+                <th onclick="alert('모스코븀. 원자번호 115번, 15족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Moscovium" data-name="모스코븀" data-radius="-"data-atomic-number="115" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Mc&nbsp;</th>
+                <th onclick="alert('리버모륨. 원자번호 116번, 16족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Livermorium" data-name="리버모륨" data-radius="-"data-atomic-number="116" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Lv&nbsp;</th>
+                <th onclick="alert('테네신. 원자번호 117번, 17족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Tennessine" data-name="테네신" data-radius="-"data-atomic-number="117" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ts&nbsp;</th>
+                <th onclick="alert('오가네손. 원자번호 118번, 18족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Oganesson" data-name="오가네손" data-radius="-"data-atomic-number="118" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Og&nbsp;</th>
+
+            </tr>
+            
+        </table>
+        
+        
+        <table style="font-size: 200%;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <tr>
+                <th> &nbsp;&nbsp;</th>
+                <th style="font-size: 80%;"> </th>
+                <th style="font-size: 80%;"> </th>
+                <th style="font-size: 80%;">란타넘족&nbsp;</th>
+                <th onclick="alert('란타넘. 원자번호 57번, 란타넘족, 6주기, 금속')" data-electro="1.1" data-name_e="Lanthanum" data-name="란타넘" data-radius="0.187nm"data-atomic-number="57" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">La&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('세륨. 원자번호 58번, 란타넘족, 6주기, 금속')" data-electro="1.12" data-name_e="Cerium" data-name="세륨" data-radius="0.182nm"data-atomic-number="58" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ce&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('프라세오디뮴. 원자번호 59번, 란타넘족, 6주기, 금속')" data-electro="1.13" data-name_e="Praseodymium" data-name="프라세오디뮴" data-radius="0.183nm"data-atomic-number="59" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Pr&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('네오디뮴. 원자번호 60번, 란타넘족, 6주기, 금속')" data-electro="1.14" data-name_e="Neodymium" data-name="네오디뮴" data-radius="0.182nm"data-atomic-number="60" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Nd&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('프로메튬. 원자번호 61번, 란타넘족, 6주기, 금속\n방사성 원소')" data-electro="1.13" data-name_e="Promethium" data-name="프로메튬" data-radius="0.185nm"data-atomic-number="61" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Pm&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('사마륨. 원자번호 62번, 란타넘족, 6주기, 금속')" data-electro="1.17" data-name_e="Samarium" data-name="사마륨" data-radius="0.181nm"data-atomic-number="62" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Sm&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('유로퓸. 원자번호 63번, 란타넘족, 6주기, 금속')" data-electro="1.2" data-name_e="Europium" data-name="유로퓸" data-radius="0.204nm"data-atomic-number="63" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Eu&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('가돌리늄. 원자번호 64번, 란타넘족, 6주기, 금속')" data-electro="1.2" data-name_e="Gadolinium" data-name="가돌리늄" data-radius="0.180nm"data-atomic-number="64" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Gd&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('터븀. 원자번호 65번, 란타넘족, 6주기, 금속')" data-electro="1.1" data-name_e="Terbium" data-name="터븀" data-radius="0.177nm"data-atomic-number="65" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Tb&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('디스프로슘. 원자번호 66번, 란타넘족, 6주기, 금속')" data-electro="1.22" data-name_e="Dysprosium" data-name="디스프로슘" data-radius="0.177nm"data-atomic-number="66" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Dy&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('홀뮴. 원자번호 67번, 란타넘족, 6주기, 금속')" data-electro="1.23" data-name_e="Holmium" data-name="홀뮴" data-radius="0.176nm"data-atomic-number="67" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ho&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('어븀. 원자번호 68번, 란타넘족, 6주기, 금속')" data-electro="1.24" data-name_e="Erbium" data-name="어븀" data-radius="0.175nm"data-atomic-number="68" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Er&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('톨륨. 원자번호 69번, 란타넘족, 6주기, 금속')" data-electro="1.25" data-name_e="Thulium" data-name="톨륨" data-radius="0.174nm"data-atomic-number="69" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Tm&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('이터븀. 원자번호 70번, 란타넘족, 6주기, 금속')" data-electro="1.1" data-name_e="Ytterbium" data-name="이터븀" data-radius="0.193nm"data-atomic-number="70" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Yb&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('루테튬. 원자번호 71번, 란타넘족, 6주기, 금속')" data-electro="1.27" data-name_e="Lutetium" data-name="루테튬" data-radius="0.173nm"data-atomic-number="71" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Lu&nbsp;&nbsp;&nbsp;</th>
+
+
+            </tr>
+
+            <tr>
+                <th>&nbsp;&nbsp;</th>
+                <th style="font-size: 80%;">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th style="font-size: 80%;">&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th style="font-size: 80%;">악티늄족&nbsp;</th>
+                <th onclick="alert('악티늄. 원자번호 89번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.1" data-name_e="Actinium" data-name="악티늄" data-radius="-"data-atomic-number="89" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Ac&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('토륨. 원자번호 90번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.3" data-name_e="Thorium" data-name="토륨" data-radius="-"data-atomic-number="90" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Th&nbsp;&nbsp;</th>
+                <th onclick="alert('프로트악티늄. 원자번호 91번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.5" data-name_e="Protactinium" data-name="프로트악티늄" data-radius="-"data-atomic-number="91" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Pa&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('우라늄. 원자번호 92번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.38" data-name_e="Uranium" data-name="우라늄" data-radius="-"data-atomic-number="92" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">U&nbsp;&nbsp;</th>
+                <th onclick="alert('넵투늄. 원자번호 93번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.36" data-name_e="Neptunium" data-name="넵투늄" data-radius="-"data-atomic-number="93" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Np&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('플루토늄. 원자번호 94번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.28" data-name_e="Plutonium" data-name="플루토늄" data-radius="-"data-atomic-number="94" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Pu&nbsp;&nbsp;</th>
+                <th onclick="alert('아메리슘. 원자번호 95번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.13" data-name_e="Americium" data-name="아메리슘" data-radius="-"data-atomic-number="95" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Am&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('퀴륨. 원자번호 96번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.28" data-name_e="Curium" data-name="퀴륨" data-radius="-"data-atomic-number="96" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Cm&nbsp;&nbsp;</th>
+                <th onclick="alert('버클륨. 원자번호 97번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.3" data-name_e="Berkelium" data-name="버클륨" data-radius="-"data-atomic-number="97" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Bk&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('칼리포늄. 원자번호 98번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.3" data-name_e="Californium" data-name="칼리포늄" data-radius="-"data-atomic-number="98" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Cf&nbsp;&nbsp;</th>
+                <th onclick="alert('아인슈타이늄. 원자번호 99번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.3" data-name_e="Einsteinium" data-name="아인슈타이늄" data-radius="-"data-atomic-number="99" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Es&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('페르뮴. 원자번호 100번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.3" data-name_e="Fermium" data-name="페르뮴" data-radius="-"data-atomic-number="100" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Fm&nbsp;&nbsp;</th>
+                <th onclick="alert('멘델레븀. 원자번호 101번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.3" data-name_e="Mendelevium" data-name="멘델레븀" data-radius="-"data-atomic-number="101" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Md&nbsp;&nbsp;&nbsp;</th>
+                <th onclick="alert('노벨륨. 원자번호 102번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="1.3" data-name_e="Nobelium" data-name="노벨륨" data-radius="-"data-atomic-number="102" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">No&nbsp;&nbsp;</th>
+                <th onclick="alert('로렌슘. 원자번호 103번, 악티늄족, 7주기, 금속\n방사성 원소')" data-electro="-" data-name_e="Lawrencium" data-name="로렌슘" data-radius="-"data-atomic-number="103" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">Lr&nbsp;&nbsp;&nbsp;</th>
+
+
+            </tr>
+            
+        </table>
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <hr>
+        
+        
+        <p style="color: red; font-size: large;"><b>여기에 표시됩니다.</b></p>
+        <div id="tooltip" class="tooltip"></div>
+        <p style="font-size: 60%;">  *원자반지름은 기준이 모호해 값 자체에 큰 의미 두지 않는걸 추천합니다.</p>  
+        <p style="font-size: 60%;">  *전기음성도는 폴링 척도에 의해 계산된 값입니다.</p>  
+        
+
+        
+        
+        
+        
+        <script src="script.js"></script>
+        
+        <script>
+            function showTooltip(event) {
+        var tooltip = document.getElementById('tooltip');
+        var element = event.target;
+        var name = element.getAttribute('data-name');
+        var electro = element.getAttribute('data-electro');
+        var atomicNumber = element.getAttribute('data-atomic-number');
+        var radius = element.getAttribute('data-radius');
+        var name_e = element.getAttribute('data-name_e');
+
+        tooltip.innerHTML = `<h3>이름: ${name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;영문명: ${name_e}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원자번호: ${atomicNumber}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전기음성도: ${electro}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원자반지름: ${radius}</h3>`;
+        tooltip.style.visibility = 'visible';
+        tooltip.style.opacity = 1;
+        tooltip.style.top = (element.offsetTop - tooltip.offsetHeight - 10) + 'px';
+        tooltip.style.left = (element.offsetLeft + (element.offsetWidth / 2) - (tooltip.offsetWidth / 2)) + 'px';
+        
+    }
+
+    function hideTooltip() {
+        var tooltip = document.getElementById('tooltip');
+        tooltip.style.visibility = 'hidden';
+        tooltip.style.opacity = 0;
+    }
+
+        
+        </script>
+            
+
+        
+    </body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer> 
+        <h4>만든이: Quarter-PI  31기 기장 정진</h4>
+        <p>ver.1.2.1 (24.05.)</p>
+        <blockquote>
+          
+        </blockquote>
+    </footer>
+</html>
